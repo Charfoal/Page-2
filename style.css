@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    p.dotted {border-style: dotted;}
+    p.double {border-style: double}
+}
+
+a:link {
+    color:aliceblue;
+}
+
+img {
+    width: 500px;
+    border: 5px dotted lightpink;
+    border-radius: 3%;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    margin: 20px;
+    a:before {
+    content: " "; 
+    display: inline-block; 
+    width: 32px;
+    }
+    text-align:left;
+    align-content:normal;
+}
