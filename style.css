@@ -16,6 +16,9 @@ img {
     width: 500px;
     border: 5px dotted lightpink;
     border-radius: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
